@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audit Chauffage - Économisez dès maintenant</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0A2540, #2E86FF);
+    color: white;
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 32px;
+}
+
+.btn {
+    background: #FF7A00;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+    margin: 10px 5px 0 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #f5f5f5;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 250px;
+}
+
+.offer {
+    background: #0A2540;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cta {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>🔥 Stop aux factures de chauffage trop élevées</h1>
+        <p>Je vous montre exactement où vous perdez de l’argent (et comment l’arrêter)</p>
+
+        <p>✔ Jusqu’à -30% d’économie<br>
+        ✔ Sans travaux inutiles<br>
+        ✔ Résultats dès ce mois-ci</p>
+
+        <button class="btn">Je réserve mon audit (79€)</button>
+        <button class="btn" style="background:white;color:#0A2540;">Être rappelé</button>
+
+        <p><strong>🔥 10 audits / semaine maximum</strong></p>
+    </div>
+</section>
+
+<!-- PREUVE -->
+<section class="section">
+    <h2>💬 Ils ont déjà économisé</h2>
+    <p>⭐ “280€/an économisés”</p>
+    <p>⭐ “6000€ de travaux évités”</p>
+    <p>⭐ “Rentabilisé en 1 mois”</p>
+</section>
+
+<!-- PROCESS -->
+<section class="section">
+    <h2>⚡ Comment ça marche</h2>
+    <div class="cards">
+        <div class="card">1️⃣ Prise de rendez-vous</div>
+        <div class="card">2️⃣ Analyse complète</div>
+        <div class="card">3️⃣ Plan d’action</div>
+    </div>
+</section>
+
+<!-- OFFRE -->
+<section class="section">
+    <div class="offer">
+        <h2>Audit chauffage complet</h2>
+        <div class="price">79€</div>
+        <p>✔ 30 à 45 min<br>✔ Conseils personnalisés<br>✔ Économies rapides</p>
+
+        <button class="btn">Je réserve maintenant</button>
+    </div>
+</section>
+
+<!-- BONUS -->
+<section class="section">
+    <h2>🎁 Bonus offert</h2>
+    <p>Guide PDF : 5 erreurs qui font exploser votre facture</p>
+</section>
+
+<!-- GARANTIE -->
+<section class="section">
+    <h2>🛡️ Zéro risque</h2>
+    <p>Satisfait ou remboursé</p>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta">
+    <h2>🚀 Ne perdez plus d’argent</h2>
+    <p>Chaque mois = pertes évitables</p>
+
+    <button class="btn">Prendre rendez-vous</button>
+</section>
+
+</body>
+</html>
